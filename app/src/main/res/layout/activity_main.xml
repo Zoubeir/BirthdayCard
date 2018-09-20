@@ -12,11 +12,44 @@
         android:src="@drawable/bg_img"
         android:scaleType="centerCrop"/>
 
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="36dp"
+        android:src="@drawable/cake" />
+
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="You are Invited!"
-         />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="102dp"
+        android:capitalize="characters"
+        android:fontFamily="cursive"
+        android:shadowColor="@android:color/holo_purple"
+        android:text="Heyo"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="48sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text1"
+        android:layout_marginTop="36dp"
+        android:fontFamily="cursive"
+        android:text="Happy Birthday!!"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="48sp"
+        android:typeface="serif" />
+
 
 
 
